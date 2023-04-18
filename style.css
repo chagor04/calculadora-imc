@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 45%;
+    height: 50%;
+    border: solid;
+    margin: auto;
+    margin-top: 5%; 
+    background-color: rgb(158, 152, 152);
+}
+h1{
+    padding-top: 1%;
+    text-align: center;
+}
+.conteiner_inferior{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.parte_1{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7%;
+}
+h3{
+    text-align: center;
+    width: 20%;
+    height: 10%;
+    font-size: 22px;
+}
+.peso{
+    width: 30%;
+    height: 10%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.altura{
+    width: 30%;
+    height: 10%;
+    text-align: center;
+    margin-bottom: 7%;
+}
+.btn_calcular{
+    width: 45%;
+    height: 15%;
+    margin-bottom: 2%;
+    font-size: 23px;
+    background-color: blue;
+    color: white;
+}
+.btn_reiniciar{
+    width: 45%;
+    height: 15%;
+    margin-bottom: 2%;
+    font-size: 28px;
+    background-color: blue;
+    color: white;
+}
+
+.parte_2{
+    width: 50%;
+    height: 90%;
+    border: solid;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7%;
+}
+p{
+    height: 10%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.pantalla{
+    width: 28%;
+    height: 22%;
+    border: solid;
+    margin-bottom: 5%;
+    background-color: white;
+}
+.imagen_imc{
+    width: 85%;
+    height: 56%;
+    background-image: url(./unnamed.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
